@@ -1,0 +1,28 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+
+}
+button{
+    background-color: #333;
+    color: white;
+    border-radius: 12px;
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
